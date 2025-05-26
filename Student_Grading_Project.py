@@ -277,7 +277,7 @@ def main():
 
         elif(choice==0):
             manager.save_to_file(filename)
-            break
+            exit()
 
         else:
             print("Invalid choice. Try again.")
